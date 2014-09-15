@@ -23,5 +23,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Week": {
+    "dataSource": "pnplbdb",
+    "public": true
   }
 }

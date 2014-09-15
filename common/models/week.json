@@ -1,0 +1,33 @@
+{
+  "name": "Week",
+  "plural": "Weeks",
+  "base": "PersistedModel",
+  "properties": {
+    "firstDay": {
+      "type": "date",
+      "required": true
+    },
+    "oAvg": {
+      "type": "number"
+    },
+    "dAvg": {
+      "type": "number"
+    },
+    "oMax": {
+      "type": "number"
+    },
+    "dMax": {
+      "type": "number"
+    },
+    "oMin": {
+      "type": "number"
+    },
+    "dMin": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
