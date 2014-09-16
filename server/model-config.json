@@ -31,5 +31,9 @@
   "Day": {
     "dataSource": "pnplbdb",
     "public": true
+  },
+  "OD": {
+    "dataSource": "pnplbdb",
+    "public": true
   }
 }

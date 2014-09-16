@@ -1,0 +1,21 @@
+{
+  "name": "OD",
+  "plural": "ODs",
+  "base": "PersistedModel",
+  "properties": {
+    "timekey": {
+      "type": "string",
+      "required": true
+    },
+    "o": {
+      "type": "boolean"
+    },
+    "d": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
