@@ -1,0 +1,24 @@
+{
+  "name": "Day",
+  "plural": "Days",
+  "base": "PersistedModel",
+  "properties": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "wr": {
+      "type": "boolean"
+    },
+    "oTotal": {
+      "type": "number"
+    },
+    "dTotal": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
