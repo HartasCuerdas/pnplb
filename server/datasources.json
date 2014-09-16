@@ -5,6 +5,7 @@
   },
   "pnplbdb": {
     "name": "pnplbdb",
+    "database": "pnplbdb",
     "connector": "mongodb"
   }
 }
