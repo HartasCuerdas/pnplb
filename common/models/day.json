@@ -22,12 +22,12 @@
     "ODs": {
       "type": "hasMany",
       "model": "OD",
-      "foreignKey": ""
+      "foreignKey": "ODId"
     },
     "weekId": {
       "type": "belongsTo",
       "model": "Week",
-      "foreignKey": ""
+      "foreignKey": "weekId"
     }
   },
   "acls": [],
