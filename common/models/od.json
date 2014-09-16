@@ -15,7 +15,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "dayId": {
+      "type": "belongsTo",
+      "model": "Day",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": []
 }
