@@ -19,15 +19,14 @@
   },
   "validations": [],
   "relations": {
-    "ODs": {
-      "type": "hasMany",
-      "model": "OD",
-      "foreignKey": "ODId"
-    },
-    "weekId": {
+    "week": {
       "type": "belongsTo",
       "model": "Week",
       "foreignKey": "weekId"
+    },
+    "ods": {
+      "type": "hasMany",
+      "model": "OD"
     }
   },
   "acls": [],

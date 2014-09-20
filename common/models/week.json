@@ -28,10 +28,9 @@
   },
   "validations": [],
   "relations": {
-    "Days": {
+    "days": {
       "type": "hasMany",
-      "model": "Day",
-      "foreignKey": ""
+      "model": "Day"
     }
   },
   "acls": [],

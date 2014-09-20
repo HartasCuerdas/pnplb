@@ -16,10 +16,10 @@
   },
   "validations": [],
   "relations": {
-    "dayId": {
+    "day": {
       "type": "belongsTo",
       "model": "Day",
-      "foreignKey": ""
+      "foreignKey": "dayId"
     }
   },
   "acls": [],
