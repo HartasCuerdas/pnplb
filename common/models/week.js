@@ -19,6 +19,7 @@ module.exports = function(Week) {
     'createNewWeek',
     {
       returns: {arg: 'week', type: 'Object'},
+      description: "Creates a new Week"
     }
   );
 
