@@ -18,7 +18,6 @@ module.exports = function(Week) {
   Week.remoteMethod(
     'createNewWeek',
     {
-      accepts: {arg: 'msg', type: 'string'},
       returns: {arg: 'weekgreeting', type: 'string'}
     }
   );
