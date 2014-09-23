@@ -9,10 +9,10 @@ module.exports = function(Week) {
     var day = new Date(y, m, d);
     var UTCvalue = day.valueOf();
 
-    Week.create({ "firstDay": UTCvalue }, function(err, week) {
       console.log('err: ' + err);
       console.log('week: ' + week);
-      cb(null, 'Week was created ' + msg);
+    Week.create({ "firstDay": UTCvalue }, function(err, weekdata) {
+      cb(null, weekdata);
     });
 
   }
