@@ -1,6 +1,6 @@
 module.exports = function(Week) {
 
-  Week.createNewWeek = function(msg, cb) {
+  Week.createNewWeek = function(cb) {
 
     var y = 2014;
     // month Jan = 0
